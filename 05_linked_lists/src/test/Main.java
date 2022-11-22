@@ -1,0 +1,31 @@
+package test;
+
+import linkedlist.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List l1= new List();
+		
+		System.out.println("Create list of 5 elements : ");
+		l1.createLL(5);
+		
+		System.out.println("List is :");
+		l1.displayList();
+		
+//		System.out.println("Size is:"+l1.getSize());
+		
+		l1.insertAtPos(5, 99);
+		
+		System.out.println("List is :");
+		l1.displayList();
+		
+		l1.deleteAtPos(6);
+		
+		System.out.println("List is :");
+		l1.displayList();
+
+	}
+
+}

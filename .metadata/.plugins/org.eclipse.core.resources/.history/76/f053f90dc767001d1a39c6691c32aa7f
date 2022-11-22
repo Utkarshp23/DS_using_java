@@ -1,0 +1,24 @@
+package sort_List_data;
+
+
+
+import linkedlist.List;
+import node.Node;
+
+public class Main {
+	
+	public static void sortLL(List l)
+	{
+		Node temp=l.head;
+		int n=l.getSize();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List l1= new List();
+		System.out.println("Enter  list------>");
+		l1.createLL(10);
+	}
+
+}

@@ -1,0 +1,20 @@
+package test;
+
+import linkedlist.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List l1= new List();
+		
+		l1.insertNode(1);
+		l1.insertNode(1);
+		l1.insertNode(1);
+		
+		System.out.println("List is :");
+		l1.displayList();
+
+	}
+
+}

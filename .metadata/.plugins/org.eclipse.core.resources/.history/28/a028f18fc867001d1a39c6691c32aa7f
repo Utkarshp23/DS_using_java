@@ -1,0 +1,55 @@
+package sort_List_data;
+
+
+
+import linkedlist.List;
+import node.Node;
+
+public class Main {
+	
+	public static void sortLL(List l)
+	{
+		Node temp=l.head;
+		int n=l.getSize();
+		
+		Node t1=l.head;
+		Node t2=l.head;
+		for(int i=0;i<n-1;++i)
+		{
+			t2=l.head;
+			for(int j=0;j<(n-1)-i;++j)
+			{
+				System.out.println("a:"+t2.data+" b:"+t2.next.data);
+				if(t2.data>t2.next.data)
+				{
+					swap(t2,t2.next);
+					System.out.println("Swapped:");
+					System.out.println("a:"+t2.data+" b:"+t2.next.data);
+				}
+				t2=t2.next;
+			}
+			t1=t1.next;
+		}
+	}
+	
+	public static void swap(Node n1,Node n2)
+	{
+		int temp=n1.data;
+		n1.data=n2.data;
+		n2.data=n1.data;
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List l1= new List();
+		System.out.println("Enter  list------>");
+		l1.createLL(10);
+		
+		sortLL(l1);
+		System.out.println("Sorted List:");
+		l1.displayList();
+	}
+
+}

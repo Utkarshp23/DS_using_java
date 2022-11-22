@@ -1,0 +1,42 @@
+package reverse_a_linkedlist;
+
+import linkedlist.List;
+import node.Node;
+
+public class Main {
+
+	public static void reverseList(List l) {
+
+		Node prev=null;
+		Node curr=l.head;
+		Node nxt;
+		
+		while(curr!=null)
+		{
+			nxt=curr.next;
+			curr.next=prev;
+			prev=curr;
+			curr=nxt;
+		}
+		
+		l.head=prev;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List l1 = new List();
+
+		System.out.println("Create list of 5 elements : ");
+		l1.createLL(5);
+
+		System.out.println("List is :");
+		l1.displayList();
+		
+		reverseList(l1);
+		
+		System.out.println("List is after reverse :");
+		l1.displayList();
+	}
+
+}

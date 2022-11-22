@@ -1,0 +1,21 @@
+package test;
+
+import doublyList.DoublyList;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println("Heello");
+		
+		DoublyList l= new DoublyList();
+		
+		l.insertNode(1);
+		l.insertNode(2);
+		l.insertNode(3);
+		l.insertNode(4);
+		l.insertNode(5);
+
+	}
+
+}

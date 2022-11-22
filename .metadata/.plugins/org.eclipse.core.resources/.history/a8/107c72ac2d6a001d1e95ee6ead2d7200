@@ -1,0 +1,71 @@
+package llstack;
+
+import java.util.Scanner;
+
+//import node.Node;
+
+public class DynamicStack {
+
+	class Node {
+		private int data;
+		private Node next;
+
+		Node(int d) {
+			data = d;
+			next = null;
+		}
+	}
+
+	private Node top;
+
+	public DynamicStack() {
+		top = null;
+	}
+
+	public boolean isEmpty() {
+		return top == null;
+	}
+
+	public void push(int elem) {
+		Node rec = new Node(elem);
+
+		rec.next = top;
+		top = rec;
+
+	}
+	
+	public int pop()
+	{
+		int d=-9999;
+		if(!isEmpty())
+		{
+			d=top.data;
+			Node del=top;
+			top=top.next;
+			del=null;
+		}
+		return d;
+	}
+	
+	public void display()
+	{
+		Node temp=top;
+		while(temp!=null)
+		{
+			System.out.println(temp.data);
+			temp=temp.next;
+		}
+	}
+
+
+	public int getSize() {
+		Node temp = top;
+		int cnt = 1;
+		while (((temp = temp.next) != null) && (++cnt) > 0)
+			;
+
+		return cnt;
+	}
+}
+
+

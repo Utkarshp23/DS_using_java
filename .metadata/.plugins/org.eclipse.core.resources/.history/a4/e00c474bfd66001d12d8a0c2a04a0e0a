@@ -1,0 +1,30 @@
+package test;
+
+import linkedlist.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List l1= new List();
+		
+		l1.insertNode(1);
+		l1.insertNode(2);
+		l1.insertNode(3);
+		l1.insertNode(4);
+		l1.insertNode(5);
+		
+		System.out.println("List is :");
+		l1.displayList();
+		
+//		System.out.println("Size is:"+l1.getSize());
+		
+		l1.insertAtPos(3, 99);
+		
+		System.out.println("List is :");
+		l1.displayList();
+		
+
+	}
+
+}

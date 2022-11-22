@@ -1,0 +1,13 @@
+package removeDuplicates;
+
+import linkedlist.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List l=new List();
+		l.createLL(5);
+	}
+
+}

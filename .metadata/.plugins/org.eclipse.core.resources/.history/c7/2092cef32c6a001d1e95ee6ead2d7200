@@ -1,0 +1,15 @@
+package test;
+
+import llstack.DynamicStack;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DynamicStack s= new DynamicStack();
+		
+		s.push(10);
+//		s.display();
+	}
+
+}

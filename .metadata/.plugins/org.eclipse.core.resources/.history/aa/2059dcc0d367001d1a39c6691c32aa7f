@@ -1,0 +1,14 @@
+package node;
+
+public class Node_d {
+	
+	private int data;
+	private Node_d next;
+	private Node_d prev;
+	
+	public Node_d(int d)
+	{
+		data=d;
+		next=prev=null;
+	}
+}

@@ -1,0 +1,9 @@
+package doublyList;
+
+import node.Node_d;
+
+public class DoublyList {
+
+	private Node_d head;
+	private Node_d tail;
+}

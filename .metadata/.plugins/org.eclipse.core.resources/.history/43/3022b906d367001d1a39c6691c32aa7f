@@ -1,0 +1,8 @@
+package node;
+
+public class Node_d {
+	
+	private int data;
+	private Node_d next;
+	private Node_d prev;
+}

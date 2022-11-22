@@ -1,0 +1,21 @@
+package removeDuplicates;
+
+import org.w3c.dom.Node;
+
+import linkedlist.List;
+
+public class Main {
+
+	public static void removeDuplicates(List l)
+	{
+		Node temp=l.head;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List l=new List();
+		l.createLL(5);
+		removeDuplicates(l);
+	}
+
+}

@@ -1,0 +1,32 @@
+package test;
+
+import llqueue.DynamicQueue;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DynamicQueue s= new DynamicQueue();
+		
+		s.enqueue(10);
+		s.enqueue(20);
+		s.enqueue(30);
+		s.enqueue(40);
+//		s.enqueue(50);
+//		s.enqueue(60);
+//		System.out.println("Size is :"+s.getSize());
+		System.out.println("Queue is");
+		s.display();
+		s.dequeue();
+		s.dequeue();
+		s.dequeue();
+		System.out.println("Queue is");
+		s.display();
+		
+		s.enqueue(10);
+		s.enqueue(20);
+		System.out.println("Queue is");
+		s.display();
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\0106_0036\DSA\04_queue_of_array"/>
+			<item value="D:\0106_0036\DSA\03_stack_of_Array"/>
+			<item value="D:\0106_0036\DSA\02_sorting_1"/>
+			<item value="D:\0106_0036\DSA\01_searching_1"/>
+		</list>
+	</section>
+</section>

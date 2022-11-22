@@ -1,0 +1,20 @@
+package queueOfPerfectNo;
+
+public class Main {
+	
+	public static void pushPerfectNums()
+	{
+		Queue q= new Queue(5);
+	}
+	
+	public static void check(int n)
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
