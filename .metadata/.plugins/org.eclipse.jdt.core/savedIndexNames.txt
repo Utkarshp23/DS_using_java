@@ -1,10 +1,6 @@
-INDEX VERSION 1.131+D:\0106_0036\DSA\.metadata\.plugins\org.eclipse.jdt.core
-2367655816.index
-1479735364.index
-4117437390.index
-2081128880.index
-658984621.index
-2435740089.index
-3863859673.index
+INDEX VERSION 1.131+/home/utkarsh/CDAC/DS_using_java/.metadata/.plugins/org.eclipse.jdt.core
 1865797976.index
-1779376727.index
+2496592782.index
+2075232355.index
+2078060910.index
+2998941843.index

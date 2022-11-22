@@ -19,6 +19,28 @@ public class Main1 {
 		System.out.println("List is:");
 		l.displayDll();
 
+//		l.insertChoiceData("after", 6, 99);
+//		System.out.println("List in reverse is: ");
+//		l.displayR();
+//		l.insertAtPos(0, 100);
+		l.deleteAtPos(5);
+		System.out.println("List is:");
+		l.displayDll();
+		
+//		l.insertAtPos(3, 100);
+//		System.out.println("List is:");
+//		l.displayDll();
+//		
+//		l.insertAtPos(5, 100);
+//		System.out.println("List is:");
+//		l.displayDll();
+//		
+//		l.insertAtPos(7, 100);
+//		System.out.println("List is:");
+//		l.displayDll();
+		
+//		System.out.println("Size:"+l.getSize());
+		
 	}
 
 }
