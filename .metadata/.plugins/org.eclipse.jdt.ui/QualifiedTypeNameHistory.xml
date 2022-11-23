@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="linkedlist.List"/>
     <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
     <fullyQualifiedTypeName name="node.Node"/>
     <fullyQualifiedTypeName name="node.Node_d"/>
     <fullyQualifiedTypeName name="doublyList.DoublyList"/>
     <fullyQualifiedTypeName name="llstack.DynamicStack"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

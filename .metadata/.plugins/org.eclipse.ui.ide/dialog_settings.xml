@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\0106_0036\DSA\08_Tree"/>
 			<item value="D:\0106_0036\DSA\04_queue_of_array"/>
 			<item value="D:\0106_0036\DSA\03_stack_of_Array"/>
 			<item value="D:\0106_0036\DSA\02_sorting_1"/>
