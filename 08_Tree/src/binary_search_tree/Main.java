@@ -12,7 +12,7 @@ public class Main {
 		
 		int ch=0;
 		Scanner sc= new Scanner(System.in);
-		while(ch!=8)
+		while(ch!=9)
 		{
 			System.out.println("\n--------------------------------");
 			System.out.println("Enter choice : ");
@@ -24,6 +24,7 @@ public class Main {
 			System.out.println("5. Find Max");
 			System.out.println("6. Search element");
 			System.out.println("7. Find Height ");
+			System.out.println("8. Count Nodes ");
 			System.out.println("--------------------------------");
 			System.out.print("> ");
 			ch=sc.nextInt();
@@ -66,6 +67,10 @@ public class Main {
 				break;
 				
 			case 8:
+				System.out.println("No. of nodes are :"+ b.countNodes(b.root));
+				break;
+				
+			case 9:
 				break;
 			}
 			
