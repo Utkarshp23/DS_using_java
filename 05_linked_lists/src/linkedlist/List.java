@@ -161,5 +161,18 @@ public class List {
 		}
 		
 	}
+	
+	public void rotateLeft(int pos)
+	{
+		 tail.next=head;
+		 Node temp=head;
+		 while((pos--)>1)
+		 { 
+			 temp=temp.next;
+		 }
+		 head=temp.next;
+		 temp.next=null;
+		 
+	}
 
 }

@@ -16,13 +16,17 @@ public class Main {
 		
 //		System.out.println("Size is:"+l1.getSize());
 		
-		l1.insertAtPos(5, 99);
+//		l1.insertAtPos(5, 99);
+//		
+//		System.out.println("List is :");
+//		l1.displayList();
+//		
+//		l1.deleteAtPos(6);
+//		
+//		System.out.println("List is :");
+//		l1.displayList();
 		
-		System.out.println("List is :");
-		l1.displayList();
-		
-		l1.deleteAtPos(6);
-		
+		l1.rotateLeft(3);
 		System.out.println("List is :");
 		l1.displayList();
 
